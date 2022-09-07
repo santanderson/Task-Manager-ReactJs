@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0A1A38;
+  color: white;
+}
+
+body .App, body .App form, body .App ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body .App button {
+  background-color: #00418C;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  width: 80px;
+}
+
+body .App button:hover {
+  cursor: pointer;
+}
+
+body .App form input, body .App form textarea {
+  width: 300px;
+  background-color: #00418C;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid black;
+}
+
+body .App form textarea {
+  height: 150px;
+}
+
+body .App ul {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  width: 300px;
+  height: 350px;
+  border: 1px solid black;
+  overflow-y: scroll;
+  background-color: #00418C;
+}
+
+body .App ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #0A1A38;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+}
+
+body .App ul li h1 {
+  font-size: 24px;
+}
+/*# sourceMappingURL=style.css.map */
